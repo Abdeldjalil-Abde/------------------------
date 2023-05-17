@@ -1,0 +1,121 @@
+body>section .description {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: #1a032ed9;
+    margin-top: 1px;
+  }
+  body>section .description p{
+    font-size: 22px;
+    font-family: system-ui;
+    color: #f9d005;
+  }
+  
+  body>section .description .line {
+    height: 3px;
+    width: 91%;
+    position: absolute;
+    background-color: #fff;
+    left: 4.5%;
+    top: 86%;
+  }
+  body > section .tools{
+    width: 94%;
+    padding-top: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* overflow: auto; */
+  }
+  body > section .tools .subTools{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  body > section .tools .subTools .typeTools{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 23px;
+  }
+  body > section .tools .subTools .typeTools samp{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px rgba(0,0,0,.54) solid;
+    font-family: system-ui;
+    cursor: pointer;
+    position: relative;
+  }
+  body > section .tools .subTools .typeTools samp::after{
+    content: "";
+     width: 10px;
+     height: 10px;
+     border: 2px rgb(49, 49, 49) solid;
+     border-top: transparent;
+     border-left: transparent;
+     position: absolute;
+     transform: var(--x,rotate(45deg));
+     right: 0;
+     bottom: 35px;
+   }
+  body > section .tools .subTools .typeTools ul{
+    display: none;
+    margin-top: 25px;
+    list-style-type: none;
+    font-family: system-ui;
+  }
+  body > section .tools .subTools .typeTools ul li{
+    margin: 10px auto;
+  }
+  body > section .tools .subTools .typeTools ul li a{
+    text-decoration: none;
+  }
+  body>section .end {
+    background-color: #fff;
+    align-items: end;
+  }
+  body>section .end p{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(168, 166, 166, 0.37);
+    display: flex;
+    font-family: system-ui;
+    justify-content: center;
+    align-items: center;
+    color: #741b47;
+  }
+  
+  body>section .end .line {
+    height: 3px;
+    width: 91%;
+    position: absolute;
+    background-color: #1a032ed9;
+    left: 4.5%;
+    top: 5%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border: 1px solid rgba(255,255,255,.4);
+    background-color: rgba(167, 163, 163, 0.966);
+    -webkit-border-radius: 100px;
+
+}
